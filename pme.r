@@ -1,3 +1,4 @@
+#pme
 print_model_equation <- function(model, dep) {
   coefs <- coef(model)
   eq <- cat(dep, "= ", round(coefs[1], 4))
