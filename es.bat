@@ -10,8 +10,8 @@ if "%~1"=="" (
 set "section=# %~1"
 set "inSection=0"
 
->snippet.txt (
-  for /f "usebackq delims=" %%A in ("master.txt") do (
+(
+  for /f "usebackq delims=" %%A in ("mst.txt") do (
     set "line=%%A"
     set "trimmed=!line: =!"
     if /i "!trimmed!"=="%section%" (
@@ -28,6 +28,6 @@ set "inSection=0"
       echo !line!
     )
   )
-)
+) | clip
 :done
 endlocal
