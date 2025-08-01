@@ -1,0 +1,37 @@
+#msqm
+mid_square_method <- function(seed, n) {
+
+  seed_str <- as.character(seed)
+  d <- nchar(seed_str)
+  
+  if (d %% 2 != 0) {
+    stop("Seed must have an even number of digits.")
+  }
+
+  results <- numeric(n)
+  
+  for (i in 1:n) {
+    seed_squared <- seed^2
+    seed_squared_str <- sprintf(paste0("%0", 2 * d, "d"), seed_squared)
+    
+    start <- (nchar(seed_squared_str) - d) / 2 + 1
+    end <- start + d - 1
+    mid_digits <- substr(seed_squared_str, start, end)
+    
+    seed <- as.numeric(mid_digits)
+    results[i] <- seed / (10^d)
+  }
+  
+  return(results)
+}
+#msqm
+
+#lcg
+linear_congruential_generator = function(seed, n, a, c, m) {
+  for(i in 1:n){
+    rand = (a*seed + c)%%m
+    print(rand/m)
+    seed = rand
+  }
+}
+#lcg
