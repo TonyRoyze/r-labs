@@ -1,0 +1,39 @@
+# Ignore Python cache
+__pycache__/
+*.pyc
+.ipynb_checkpoints
+
+# Ignore R data files
+*.RData
+*.rds
+
+# Ignore system files
+.DS_Store
+
+# Ignore environment files
+.env
+
+# Ignore RStudio files
+.Rproj.user/
+
+# Ignore RStudio project files
+*.Rproj
+
+# Ignore Folders
+Data sets _TimeSeries/
+Data sets_SLR/
+DataVisualization/
+Regression/
+RegressionDataSets/
+
+# Ignore R files
+Day2.R
+ST3008_Day3.R
+ST3008_Day4.R
+ST3008.ipynb
+ST3085.ipynb
+
+# Ignore R notebooks
+ForwardSelectionEx.ipynb
+HW Mid-square Method.ipynb
+StepwiseSelection.ipynb
