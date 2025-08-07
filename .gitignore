@@ -7,6 +7,26 @@ __pycache__/
 *.RData
 *.rds
 
+# Ignore R output files
+*.Rout
+*.pdf
+*.html
+*.docx
+
+# Ignore R markdown files
+*.Rmd
+
+
+#Ignore images
+*.png
+*.jpg
+*.jpeg
+*.gif
+*.bmp
+*.tiff
+*.ico
+*.svg
+
 # Ignore system files
 .DS_Store
 
