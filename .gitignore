@@ -2,6 +2,7 @@
 __pycache__/
 *.pyc
 .ipynb_checkpoints
+.vscode
 
 # Ignore R data files
 *.RData
@@ -42,8 +43,7 @@ __pycache__/
 # Ignore Folders
 Data sets _TimeSeries/
 Data sets_SLR/
-DataVisualization/
-Regression/
+# Regression/
 RegressionDataSets/
 
 # Ignore R files
@@ -57,4 +57,4 @@ ST3085.ipynb
 ForwardSelectionEx.ipynb
 HW Mid-square Method.ipynb
 StepwiseSelection.ipynb
-Timeseries.ipynb
+Day10.ipynb
