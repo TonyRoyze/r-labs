@@ -43,7 +43,8 @@ __pycache__/
 # Ignore Folders
 Data sets _TimeSeries/
 Data sets_SLR/
-# Regression/
+Regression/
+TimeSeries/
 RegressionDataSets/
 
 # Ignore R files
@@ -52,9 +53,13 @@ ST3008_Day3.R
 ST3008_Day4.R
 ST3008.ipynb
 ST3085.ipynb
+app.R
 
 # Ignore R notebooks
 ForwardSelectionEx.ipynb
 HW Mid-square Method.ipynb
 StepwiseSelection.ipynb
+RegressionGP.ipynb
+RegressionGPLog.ipynb
+DataAnalysis.ipynb
 Day10.ipynb
