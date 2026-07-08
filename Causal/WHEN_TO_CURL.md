@@ -5,7 +5,7 @@ Use this file as the selector guide.
 GitHub raw pattern:
 
 ```bash
-curl -L https://raw.githubusercontent.com/<user>/<repo>/<branch>/curl_snippets/<file>.md
+curl.exe -L "https://raw.githubusercontent.com/TonyRoyze/r-labs/main/Causal/10_iv_2sls.md" | Set-Clipboard
 ```
 
 ## Question Types
